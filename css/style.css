@@ -14,5 +14,25 @@ body{
     margin-left: 50px;
     margin-right: 750px;
     border-radius: 50%;
-    
+    }
+
+.d-block{
+    margin-left: 350px;
+
+}    
+
+.titulo{
+    font-size: large;
+    color: hsl(108, 100%, 50%);
+    text-align: center;
+    margin-top: 88px;
+}
+
+.copi{
+    font-size: 11px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #2884b2;
+    padding: 10px 0;
+
 }
