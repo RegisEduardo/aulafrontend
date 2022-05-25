@@ -1,12 +1,12 @@
-.nav{
+.nav{  
     font-size: 25px;
     padding: 80px;
-    background-color: #003;
+    background-color: rgb(212, 4, 39);
 }
 
 body{
 
-    background-color: #002;
+    background-color: rgb(77, 1, 1);
 }
 
 #foto{
@@ -18,12 +18,11 @@ body{
 
 .d-block{
     margin-left: 350px;
-
 }    
 
 .titulo{
     font-size: large;
-    color: hsl(108, 100%, 50%);
+    color: hsl(0, 0%, 100%);
     text-align: center;
     margin-top: 88px;
 }
@@ -35,4 +34,34 @@ body{
     background-color: #2884b2;
     padding: 10px 0;
 
+}
+
+.fixed-top{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+
+}
+.bg-dark{
+    background-color: #343a40!important;
+
+}
+.navbar {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: .5rem 1rem;
+}
+
+
+.nav-item{
+background-color: brown;
 }
